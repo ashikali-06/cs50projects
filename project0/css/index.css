@@ -1,0 +1,60 @@
+#upperright a {
+    color: black;
+    font-size: large;
+    margin-left:15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+#png{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+#form div{
+    text-align: center;
+}
+
+div #text{
+    border-radius: 20px;
+    border: 1px solid grey;
+    height: 40px;
+    width: 450px;
+    font-size: large;
+    padding-left: 40px;
+    background:url(/png/search-icon.png) no-repeat 10px 10px; 
+    background-size: 30px 30px;
+    
+    
+}
+div #text:hover{
+    box-shadow: 2px 0px 5px rgb(0, 0, 0,0.5);
+}
+div #text:focus{
+      outline: none;
+    
+}
+#seconddiv input{
+    margin-top: 25px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#firstsubimit{
+    margin-right: 50px;
+
+}
+#secondsubmit{
+    margin-left: 50px;
+}
+#firstsubmit,#secondsubmit{
+ 
+    width: 180px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    
+}
+#firstsubmit:hover,#secondsubmit:hover{
+    border: 1px solid rgb(147, 147, 147);
+}
