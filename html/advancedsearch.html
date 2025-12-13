@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>advancedsearch</title>
+    <link rel="stylesheet" href="/css/advancedsearch.css">
+</head>
+<body>
+    <a href="index.html">
+        <img src="/png/google_PNG1.png" alt="googlelogo">
+    </a>
+    <div class="topdiv">
+        <h1>Advanced Search</h1>
+    </div>
+    <div class="border">
+    </div>
+    <div class="main">
+        <form id="myform" action="https://www.google.com/search" method="get">
+            <div class="total">
+                <div class="commondiv">
+                    <label for="atw">all these words:</label>
+                    <input id="atw" type="text" name="as_q">
+                </div>
+                <div class="commondiv">
+                    <label for="tewp">this exact word or phrase:</label>
+                    <input id="tewp" type="text" name="as_epq">
+                </div>
+                <div class="commondiv">
+                    <label for="aotw">any of these words:</label>
+                    <input id="aotw" type="text" name="as_oq">
+                </div>
+                <div class="commondiv">
+                    <label for="notw">none of these words:</label>
+                    <input id="notw" type="text" name="as_eq">
+                </div>
+                <div class="commondiv">
+                    <label for="nrf">numbers ranging from:</label>
+                    <input id="nrf" type="text" name="as_nlo" style="width:165px;">
+                    <span>to</span>
+                    <input id="nrf" type="text" name="as_nhi" style="width:165px;">
+                </div>
+            </div>
+        </form>
+    </div>
+    <section><input type="submit" value="Advancedearch" form="myform"></section>
+    
+      
+</body>
+</html>
